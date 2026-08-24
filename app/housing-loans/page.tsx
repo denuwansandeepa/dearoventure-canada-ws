@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Housing Loan | Dearo Investment Limited",
+  title: "Housing Loan | Dearo Venture Canada Ltd",
   description:
     "Structured housing loan solutions for home renovations, extensions, and improvements with long-term stability.",
 };
@@ -26,12 +26,12 @@ export default function HousingLoansPage() {
         <div className="flex flex-col justify-center px-6 md:px-12 lg:px-16">
           
 
-            <h1 className="text-4xl md:text-6xl mt-20 font-extrabold leading-tight mb-6 "><span className="text-[#4F7CFF]">Dearo</span>
+            <h1 className="text-4xl md:text-6xl mt-20 font-extrabold leading-tight mb-6 "><span className="text-[#4F7CFF]">Dearo Venture Canada</span>
           <br/> Housing Loan
           </h1>
 
           <p className="text-gray-400 text-lg max-w-xl mb-8">
-            Upgrade, enhance, or transform your home with the Dearo Housing Loan.
+            Upgrade, enhance, or transform your home with the Dearo Venture Canada Housing Loan.
             Designed for residential property owners, this solution provides
             structured, long-term funding for renovations, extensions, and home
             improvements—backed by transparent terms and dependable service.

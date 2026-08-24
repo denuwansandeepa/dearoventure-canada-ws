@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "MSME Growth Solutions | Dearo Investment Limited",
+  title: "MSME Growth Solutions | Dearo Venture Canada Ltd",
 };
 
 export default function MSMEGrowthPage() {

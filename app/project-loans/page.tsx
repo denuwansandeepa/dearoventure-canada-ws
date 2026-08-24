@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Project Loans | Dearo Investment Limited",
+  title: "Project Loans | Dearo Venture Canada Ltd",
   description:
     "Structured project loan solutions supporting medium to large-scale developments from planning to completion.",
 };
@@ -137,7 +137,7 @@ export default function ProjectLoansPage() {
           Deliver Your Project with <span className="text-cyan-400">Confidence</span>
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-          Partner with Dearo Investment Limited to access disciplined,
+          Partner with Dearo Venture Canada Ltd to access disciplined,
           milestone-driven project financing designed for sustainable success.
         </p>
         <a

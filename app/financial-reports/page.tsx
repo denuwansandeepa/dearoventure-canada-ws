@@ -69,7 +69,7 @@ export default function FinancialReportsPage() {
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <p className="text-gray-700 text-lg leading-relaxed">
-            At <strong>Dearo Investment Limited</strong>, we believe in complete
+            At <strong>Dearo Venture Canada Ltd</strong>, we believe in complete
             financial transparency. Our financial reports provide a clear view
             of our performance, risk management practices, and growth strategy—
             ensuring investors and stakeholders have the insights they need to

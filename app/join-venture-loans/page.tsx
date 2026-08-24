@@ -7,9 +7,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Join Venture Loans | Dearo Investment Limited",
+  title: "Joint Venture Loans | Dearo Venture Canada Ltd",
   description:
-    "Structured Join Venture Loan solutions supporting partnership-driven businesses with working capital and strategic growth financing.",
+    "Structured Joint Venture Loan solutions supporting partnership-driven businesses with working capital and strategic growth financing.",
 };
 
 export default function JoinVentureLoansPage() {
@@ -115,7 +115,7 @@ export default function JoinVentureLoansPage() {
           Strengthen Your <span className="text-cyan-400">Join Venture</span>
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-          Partner with Dearo Investment Limited to access structured,
+          Partner with Dearo Venture Canada Ltd to access structured,
           performance-aligned financing designed to support collaboration,
           stability, and long-term growth.
         </p>

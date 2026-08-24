@@ -92,10 +92,10 @@ export default function BoardMembersPage() {
       {/* HERO TEXT BELOW IMAGE */}
       <div className="text-center mt-6 px-4 sm:px-6 md:px-0">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-          Dearo Senior Management
+          Dearo Venture Canada Senior Management
         </h1>
         <p className="text-gray-700 max-w-2xl mx-auto">
-          Driven by experience and vision, Dearo’s Senior Management team provides strong leadership to support innovation, 
+          Driven by experience and vision, Dearo Venture Canada Ltd’s Senior Management team provides strong leadership to support innovation, 
           financial inclusion, and sustainable business expansion.
         </p>
       </div>

@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Hire Purchase Solutions | Dearo Investment Limited",
+  title: "Hire Purchase Solutions | Dearo Venture Canada Ltd",
 };
 
 export default function HirePurchaseLoansPage() {

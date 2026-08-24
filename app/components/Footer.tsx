@@ -13,8 +13,8 @@ const easeSmooth: [number, number, number, number] = [0.22, 1, 0.36, 1];
 const links = {
   company: [
     { name: "About", href: "/about" },
-    { name: "Career", href: "/career" },
-    { name: "News", href: "/news" },
+    { name: "Investor Relations", href: "/investor-invitation" },
+    { name: "Newsroom", href: "/news" },
     { name: "Contact", href: "/contact" },
   ],
 
@@ -31,8 +31,8 @@ const links = {
 
   legal: [
     { name: "Privacy Policy", href: "/privacy-policy" },
-    { name: "Terms & Conditions", href: "/terms" },
-    { name: "Compliance", href: "/compliance" },
+    { name: "Terms & Conditions", href: "/terms-and-conditions" },
+    { name: "Financial Reports", href: "/financial-reports" },
   ],
 };
 
@@ -61,12 +61,12 @@ const item: Variants = {
 const social = [
   {
     icon: FaFacebookF,
-    href: "https://www.facebook.com/dearoinvestmentlimited",
+    href: "https://www.facebook.com/",
     color: "hover:text-blue-400 hover:bg-blue-600/20",
   },
   {
     icon: FaInstagram,
-    href: "https://www.instagram.com/dearoinvestmentlimited/",
+    href: "https://www.instagram.com/",
     color: "hover:text-pink-400 hover:bg-pink-500/20",
   },
   {
@@ -79,7 +79,6 @@ const social = [
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#070B14] text-white">
-
       {/* BACKGROUND GLOW */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-[-120px] left-[-120px] w-[500px] h-[500px] bg-blue-600/20 blur-[150px] rounded-full" />
@@ -87,8 +86,7 @@ export default function Footer() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/10 to-black" />
       </div>
 
-      <div className="relative max-w-8xl mx-auto px-5 sm:px-6 lg:px-8 py-16 sm:py-20">
-
+      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-16 sm:py-20">
         {/* TOP GRID */}
         <motion.div
           variants={container}
@@ -97,16 +95,14 @@ export default function Footer() {
           viewport={{ once: true }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12"
         >
-
           {/* BRAND */}
           <motion.div variants={item}>
-            <h2 className="text-2xl sm:text-3xl font-bold tracking-wide">
-              DEARO<span className="text-blue-500">CANADA</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+              DEARO <span className="text-blue-500">VENTURE CANADA</span>
             </h2>
 
             <p className="mt-4 text-sm text-gray-400 leading-relaxed">
-              Building sustainable financial ecosystems through innovation,
-              trust, transparency and long-term value creation.
+              Dearo Venture Canada Ltd builds sustainable global venture ecosystems through innovation, capital excellence, transparency, and long-term value creation.
             </p>
 
             {/* SOCIAL */}
@@ -135,7 +131,7 @@ export default function Footer() {
 
           {/* COMPANY */}
           <motion.div variants={item}>
-            <h3 className="text-xs sm:text-sm uppercase tracking-widest text-gray-400 mb-4 sm:mb-6">
+            <h3 className="text-xs sm:text-sm font-bold uppercase tracking-widest text-blue-400 mb-4 sm:mb-6">
               Company
             </h3>
 
@@ -155,8 +151,8 @@ export default function Footer() {
 
           {/* SERVICES */}
           <motion.div variants={item}>
-            <h3 className="text-xs sm:text-sm uppercase tracking-widest text-gray-400 mb-4 sm:mb-6">
-              Services
+            <h3 className="text-xs sm:text-sm font-bold uppercase tracking-widest text-blue-400 mb-4 sm:mb-6">
+              Financial Solutions
             </h3>
 
             <ul className="space-y-2 sm:space-y-3">
@@ -173,10 +169,10 @@ export default function Footer() {
             </ul>
           </motion.div>
 
-          {/* LEGAL */}
+          {/* LEGAL & CONTACT */}
           <motion.div variants={item}>
-            <h3 className="text-xs sm:text-sm uppercase tracking-widest text-gray-400 mb-4 sm:mb-6">
-              Legal
+            <h3 className="text-xs sm:text-sm font-bold uppercase tracking-widest text-blue-400 mb-4 sm:mb-6">
+              Legal & Support
             </h3>
 
             <ul className="space-y-2 sm:space-y-3">
@@ -192,17 +188,16 @@ export default function Footer() {
               ))}
             </ul>
 
-            <div className="mt-6 sm:mt-8 text-sm">
-              <p className="text-gray-400">Email</p>
+            <div className="mt-6 text-sm">
+              <p className="text-gray-400 text-xs font-semibold uppercase tracking-wider">Email Inquiry</p>
               <a
-                href="mailto:info@dearoinvestment.com"
-                className="text-white hover:text-blue-400 transition break-all"
+                href="mailto:info@dearoventurecanada.com"
+                className="text-white hover:text-blue-400 transition break-all font-medium text-xs sm:text-sm"
               >
-                info@dearoinvestment.com
+                info@dearoventurecanada.com
               </a>
             </div>
           </motion.div>
-
         </motion.div>
 
         {/* DIVIDER */}
@@ -210,23 +205,19 @@ export default function Footer() {
 
         {/* BOTTOM */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-
           <p className="text-xs sm:text-sm text-gray-400">
-            © {new Date().getFullYear()} Dearo Investment. All rights reserved.
+            © {new Date().getFullYear()} Dearo Venture Canada Ltd. All rights reserved.
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-end gap-4 sm:gap-6 text-xs sm:text-sm">
             <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition">
-              Privacy
+              Privacy Policy
             </Link>
             <Link href="/terms-and-conditions" className="text-gray-400 hover:text-white transition">
-              Terms
+              Terms and Conditions
             </Link>
-            
           </div>
-
         </div>
-
       </div>
     </footer>
   );

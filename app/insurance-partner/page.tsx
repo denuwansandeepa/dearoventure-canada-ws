@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Financial & Insurance Partners | Dearo Investment Limited",
+  title: "Financial & Insurance Partners | Dearo Venture Canada Ltd",
 };
 
 /* ================= TYPES ================= */

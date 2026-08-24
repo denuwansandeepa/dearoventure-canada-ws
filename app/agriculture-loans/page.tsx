@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Agriculture Capital Investment | Dearo Investment Limited",
+  title: "Agriculture Capital Investment | Dearo Venture Canada Ltd",
   description:
     "Flexible capital solutions supporting smart agriculture, agribusiness growth, and rural development initiatives.",
 };
@@ -27,14 +27,14 @@ export default function AgricultureCapitalInvestmentPage() {
             
 
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-               Dearo Agri Loans 
+               Dearo Venture Canada Agri Loans 
             Empowering Smart Agriculture
             </h1>
 
             <p className="mt-6 text-gray-300 text-lg max-w-xl">
               Flexible capital solutions designed to support farmers,
               agribusinesses, and rural development initiatives—enabling
-              modernization, productivity, and long-term sustainability.Our Agri loans supports both traditional
+              modernization, productivity, and long-term sustainability. Our Agri loans supports both traditional
             agriculture and smart farming solutions by providing structured
             funding for innovation, efficiency, and value creation across the
             agricultural sector.
@@ -124,7 +124,7 @@ export default function AgricultureCapitalInvestmentPage() {
             Invest in Sustainable Agriculture
           </h3>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Partner with Dearo Investment Limited to modernize agriculture,
+            Partner with Dearo Venture Canada Ltd to modernize agriculture,
             improve productivity, and build long-term value through smart
             capital investment.
           </p>

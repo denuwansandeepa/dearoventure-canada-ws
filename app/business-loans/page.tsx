@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Business Loans | Dearo Investment Limited",
+  title: "Business Loans | Dearo Venture Canada Ltd",
 };
 
 export default function BusinessLoansPage() {
@@ -165,7 +165,7 @@ export default function BusinessLoansPage() {
           Ready to Strengthen Your Business?
         </h3>
         <p className="text-gray-400 max-w-2xl mx-auto mb-8 text-lg">
-          Partner with Dearo Investment Limited and access structured,
+          Partner with Dearo Venture Canada Ltd and access structured,
           growth-driven business financing.
         </p>
 

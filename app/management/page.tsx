@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Dearo Corporate Management",
+  title: "Dearo Venture Canada Corporate Management",
 };
 
 export default function ManagementPage() {
@@ -65,7 +65,7 @@ export default function ManagementPage() {
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto">
           Guided by vision and innovation, our leaders have played a key role in
-          driving Dearo Investment’s growth and success.
+          driving Dearo Venture Canada Ltd's growth and success.
         </p>
       </div>
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { TrendingUp, ShieldCheck, Globe, Leaf, Landmark } from "lucide-react";
 
 export const metadata = {
-  title: "Personal Loans | Dearo Investment Limited",
+  title: "Personal Loans | Dearo Venture Canada Ltd",
   description:
     "Flexible personal loan solutions to support individuals with healthcare, education, home, and lifestyle financial needs.",
 };
@@ -128,7 +128,7 @@ export default function PersonalLoansPage() {
             Get Your Personal Loan Today
           </h3>
           <p className="mt-6 text-gray-300">
-            Apply for a Personal Loan with Dearo Investment Limited to get quick, reliable, and tailored financing for your personal needs.
+            Apply for a Personal Loan with Dearo Venture Canada Ltd to get quick, reliable, and tailored financing for your personal needs.
           </p>
 
           <Link href="/contact">

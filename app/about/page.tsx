@@ -6,10 +6,10 @@ export default function AboutPage() {
   return (
     <main className="bg-gray-50">
       {/* HERO IMAGE */}
-      <div className="relative w-full mt-[140px] sm:mt-[150px] md:mt-0 h-[220px] sm:h-[280px] md:h-[380px]">
+      <div className="relative w-full mt-[48px] sm:mt-[52px] h-[220px] sm:h-[280px] md:h-[380px]">
         <Image
-          src="/assests/about1.jpg"
-          alt="About Dearo Investment"
+          src="/images/banners/about.jpg"
+          alt="About Dearo Venture Canada Ltd"
           fill
           priority
           className="object-cover object-center"

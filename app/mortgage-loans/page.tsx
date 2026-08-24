@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Mortgage Loans | Dearo Investment Limited",
+  title: "Mortgage Loans | Dearo Venture Canada Ltd",
 };
 
 export default function MortgageLoansPage() {
